@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #fff;
+  margin: 0;
+}
+
+header {
+  background-color: #1e1e1e;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header .profile img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+header nav ul li a {
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+section {
+  padding: 20px 20px;
+}
+
+#about, #resume, #portfolio, #blog, #contact {
+  background-color: #1e1e1e;
+  margin: 20px 0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+h2 {
+  color: #ffc107;
+}
+.text{
+  text-align: justify;
+  font-size: 20px;
+}
+.ctext{
+  font-size: 18px;
+}
